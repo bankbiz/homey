@@ -1,0 +1,33 @@
+.product-carousel {
+    width: 550px;
+    height: auto;
+    position: absolute;
+    bottom: -25px;
+    right: 0;
+    /* z-index: -1; */
+}
+
+.BrainhubCarouselItem, .BrainhubCarouselItem--active {
+    -webkit-transition: 0.6s;
+    transition: all 0.6s;
+}
+
+.BrainhubCarouselItem {
+    opacity: 0.75;
+}
+
+.BrainhubCarouselItem--active {
+    opacity: 1 !important;
+}
+
+@media only screen and (max-width: 992px) {
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 576px) {
+    
+}

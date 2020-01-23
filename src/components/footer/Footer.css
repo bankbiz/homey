@@ -1,0 +1,23 @@
+footer {
+    align-items: center;
+    display: flex;
+    padding: 20px 80px;
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+.social-bar {
+    margin-left: auto;
+}
+
+.social-icon {
+    padding-left: 34px;
+}
+
+.copyright-text #bank-biz {
+    background: linear-gradient(to right, #C33764 , #1D2671);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+}

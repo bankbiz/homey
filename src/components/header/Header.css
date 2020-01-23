@@ -1,0 +1,51 @@
+.nav-bar {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    /* padding: 20px 0; */
+}
+
+.nav-cart {
+    display: flex;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.nav-search .search-text {
+    color: #d5d5d5;
+    padding-left: 20px;
+    font-size: 14px;
+} 
+
+.nav-logo {
+    font-size: 36px;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list .non-last-menu {
+    padding-right: 60px;
+}
+
+.menu-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-list a:hover {
+    color: #d5d5d5;
+}
+
+.nav-spacer {
+    flex: 1 1;
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Palanquin+Dark:500&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  overflow-x: hidden;
+}
+
+/* -webkit-scrollbar {
+  display: none;
+} */
+
+.homey-container {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: background-image 1.2s ease-in-out;
+  transition: background-image 1.2s ease-in-out;
+}
+
+.homey-content {
+  padding: 0 80px;
+  height: 100vh;
+}
+
+.room-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+
+.room-background img {
+  height: 121.8vh;
+  width: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  .homey-content, footer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .burger-menu {
+    display: flex;
+  }
+  .nav-menu, .nav-spacer, .nav-search, .nav-cart {
+    display: none;
+  }
+  .nav-logo {
+    padding-top: 62px;
+    position: fixed;
+    z-index: 15;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .homey-content, footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 576px) {}
